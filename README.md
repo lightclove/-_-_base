@@ -27,6 +27,7 @@
   uv venv .venv --python /usr/bin/python3.9
   source .venv/bin/activate
   python --version  # Должно отобразиться (например) "Python 3.9.18"
+  pip install html2text
   uv run python export_book.py # предполагается, что скриптик export_book.py есть в папке
   # скриптик подумает секунд 10 и довольно быстро выплюнет содержимое книги в виде файлика book.md
   # profit !
